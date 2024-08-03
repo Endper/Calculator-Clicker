@@ -1,6 +1,6 @@
 # Calculator-Clicker
 
-If you want to run it on calculator:
+## If you want to run it on calculator:
 A clicker game that runs of a graphical calculator programmed in Python. The Calculator that runs this is the fx-9860GIII.
 
 What to do with the .zip folder once it's downloaded?
@@ -18,7 +18,7 @@ What to do with the .zip folder once it's downloaded?
 - Find the file that you copied and press the EXE button.
 - Wait till it loads and enjoy.
 
-If you want to run it on Windows:
+## If you want to run it on Windows:
 - Download the .exe file.
 - Run it
 - It will say that it untrusted and stuff - just click on More Info

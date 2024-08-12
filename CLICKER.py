@@ -13,12 +13,12 @@ def convert_number_to_unit(x):
   suffixes = ["", "K", "M", "B", "T", "Qa", "Qi"]
   values = {
       "": 0,
-      "K": 1_000,
-      "M": 1_000_000,
-      "B": 1_000_000_000,
-      "T": 1_000_000_000_000,
-      "Qa": 1_000_000_000_000_000,
-      "Qi": 1_000_000_000_000_000_000
+      "K": 1000,
+      "M": 1000000,
+      "B": 1000000000,
+      "T": 1000000000000,
+      "Qa": 1000000000000000,
+      "Qi": 1000000000000000000
   }
   for suffix in suffixes:
     if suffix != "Qi" and suffix != "":
@@ -328,9 +328,9 @@ def lottery_shop(money):
   if choice == "1" or choice == "2" or choice == "3" or choice == "4":
     choice_to_lottery_cost = {
       1: 100,
-      2: 100_000,
-      3: 100_000_000,
-      4: 100_000_000_000,
+      2: 100000,
+      3: 100000000,
+      4: 100000000000,
     }
     lotteryCost = choice_to_lottery_cost.get(int(choice), 0)
     chance = round(random.randint(0, 10))
@@ -402,9 +402,9 @@ def rob_a_bank(money, thieverySkill):
 
   if choice == '1' or choice == '2' or choice == '3':
     choice_to_bank_cost = {
-      1: 10_000,
-      2: 100_000,
-      3: 1_000_000,
+      1: 10000,
+      2: 100000,
+      3: 1000000,
     }
     bankCost = choice_to_bank_cost.get(int(choice), 0)
 
@@ -420,10 +420,10 @@ def rob_a_bank(money, thieverySkill):
     choice = input()
     if choice == '1' or choice == '2' or choice == '3' or choice == '4':
       choice_to_bank_cost = {
-        1: 10_000_000,
-        2: 100_000_000,
-        3: 1_000_000_000,
-        4: 10_000_000_000,
+        1: 10000000,
+        2: 100000000,
+        3: 1000000000,
+        4: 10000000000,
       }
       bankCost = choice_to_bank_cost.get(int(choice), 0)
 
@@ -442,10 +442,10 @@ def plan_a_heist(money, heistSkill):
 
   if choice == '1' or choice == '2' or choice == '3' or choice == '4':
     choice_to_heist_cost = {
-      1: 250_000,
-      2: 125_000_000,
-      3: 250_000_000,
-      4: 125_000_000_000,
+      1: 250000,
+      2: 125000000,
+      3: 250000000,
+      4: 125000000000,
     }
     heistCost = choice_to_heist_cost.get(int(choice), 0)
     heistReward = heistCost * 4
@@ -482,9 +482,9 @@ def get_a_loan(newLoanAmount):
   choice = input()
   if choice == '1' or choice == '2' or choice == '3':
     loan_amount = {
-      1: 1_000,
-      2: 100_000,
-      3: 1_000_000,
+      1: 1000,
+      2: 100000,
+      3: 1000000,
     }
     loan_amount = loan_amount.get(int(choice), 0)
   elif choice == '4':
@@ -498,10 +498,10 @@ def get_a_loan(newLoanAmount):
     choice = input()
     if choice == '1' or choice == '2' or choice == '3' or choice == '4':
       loan_amount = {
-        1: 100_000_000,
-        2: 1_000_000_000,
-        3: 100_000_000_000,
-        4: 1_000_000_000_000,
+        1: 100000000,
+        2: 1000000000,
+        3: 100000000000,
+        4: 1000000000000,
       }
       loan_amount = loan_amount.get(int(choice), 0)
   if choice == '1' or choice == '2' or choice == '3' or choice == '4':
@@ -523,9 +523,9 @@ def pay_off_a_loan(newLoanAmount, money, loans):
   choice = input()
   if choice == '1' or choice == '2' or choice == '3':
     loan_amount = {
-      1: 1_000,
-      2: 100_000,
-      3: 1_000_000,
+      1: 1000,
+      2: 100000,
+      3: 1000000,
     }
     loan_amount = loan_amount.get(int(choice), 0)
   elif choice == '4':
@@ -539,10 +539,10 @@ def pay_off_a_loan(newLoanAmount, money, loans):
     choice = input()
     if choice == '1' or choice == '2' or choice == '3' or choice == '4':
       loan_amount = {
-        1: 100_000_000,
-        2: 1_000_000_000,
-        3: 100_000_000_000,
-        4: 1_000_000_000_000,
+        1: 100000000,
+        2: 1000000000,
+        3: 100000000000,
+        4: 1000000000000,
       }
       loan_amount = loan_amount.get(int(choice), 0)
   if choice == '1' or choice == '2' or choice == '3' or choice == '4':

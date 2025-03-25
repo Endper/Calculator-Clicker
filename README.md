@@ -23,8 +23,9 @@ A clicker game that runs of a graphical calculator programmed in Python. The cal
 ## If you want to run it on Windows:
 - Download the .exe file.
 - Run it
-- It might say that it's untrusted due to windows or any other software unsure of what it can do - just click on More Info
-- Then press on Run Anyway.
+It might say that it's untrusted due by windows or some other software, because it's not sure what it can do.
+If you don't trust me, run it through VirusTotal or some other scanner.
+- Then if prompted, just click on 'More Info' anb press on 'Run Anyway'.
 - This will open up a console (cmd).
 - To close it, close the window itself.
 - Other than that, please enjoy!

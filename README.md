@@ -3,7 +3,7 @@
 This was my first official Python project (more of a game than anything). If you want to try it out, go ahead, the instructions are down below.
 
 ## If you want to run it on a calculator:
-A clicker game that runs of a graphical calculator programmed in Python. The calculator that runs this is the fx-9860GIII. However there's an executable for Windows if you don't have the calculator.
+A clicker game that runs of a graphical calculator programmed in Python. The calculator that runs this is the fx-9860GIII.
 
 ## What to do with the .zip folder once it's downloaded?
 - Download the code as a .zip folder.
@@ -21,14 +21,10 @@ A clicker game that runs of a graphical calculator programmed in Python. The cal
 - Wait till it loads and enjoy.
 
 ## If you want to run it on Windows:
-- Download the .exe file.
-- Run it
-It might say that it's untrusted due by windows or some other software, because it's not sure what it can do.
-If you don't trust me, run it through VirusTotal or some other scanner.
-- Then if prompted, just click on 'More Info' anb press on 'Run Anyway'.
-- This will open up a console (cmd).
-- To close it, close the window itself.
-- Other than that, please enjoy!
+For some reason while running it through VirusTotal, the (used to be, now deleted by me) executable was flagged malicious 8 times. 
+Although I'm certain it's a false positive, I have removed the executable and may or may not add a new one later.
+
+If you're now reconsidering downloading the .py file, you can view the file on github.
 
 ## License 
 

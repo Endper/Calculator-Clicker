@@ -29,6 +29,6 @@ A clicker game that runs of a graphical calculator programmed in Python. The cal
 - To close it, close the window itself.
 - Other than that, please enjoy!
 
-# License 
+## License 
 
 This program is licensed under the [Apache License 2.0](LICENSE).

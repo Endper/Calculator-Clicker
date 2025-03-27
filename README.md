@@ -78,6 +78,16 @@ Although I'm certain it's a false positive, I have removed the executable and ma
 
 If you're now reconsidering downloading the .py file, you can view the file on github.
 
+---
+Additional Information
+---
+[Q&A](Q&A.md) - In case you have any questions, they might be already answered.
+
+You are welcome to put up any issues if they make the program better.
+
+If you find any bugs, please report them by filing an issue.
+
+---
 ## License 
 
 This program is licensed under the [Apache License 2.0](LICENSE).

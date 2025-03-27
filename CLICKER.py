@@ -293,6 +293,7 @@ def display_second_page():
               print("Luck at doing crimes")
               print("More banks to rob")
               print("EXE to go to Stats")
+    input()
               
   elif choice == '3':
     print("|------Credits------|")
@@ -304,13 +305,13 @@ def display_second_page():
   
   elif choice == '4':
     print("|---License N Ver---|")
-    print("Version 1.2")
+    print("Version 1.2.1")
     print_empty_lines(1)
-    print("2024 - Python Clicker")
+    print("2025 - Python Clicker")
     print("@All Rights Reserved")
     print("EXE to go back")
 
-  if choice in ['1', '2', '3', '4']:
+  if choice in ['1', '2', '4']:
     input()
 
 def lottery_shop(money):

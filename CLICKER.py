@@ -214,7 +214,7 @@ def display_second_page():
     print("1 to upgrade $PC")
     print_empty_lines(1)
     print("EXE to go to Stats")
-  if choice == '2':
+  elif choice == '2':
     print("|----ChangeLog----|")
     print("1 - Version 1.0")
     print("2 - Version 1.1")
@@ -293,26 +293,24 @@ def display_second_page():
               print("Luck at doing crimes")
               print("More banks to rob")
               print("EXE to go to Stats")
-
-  if choice == '1' or choice == '2' or choice == '3':
-    choice = input()
-
-  if choice == '3':
+              
+  elif choice == '3':
     print("|------Credits------|")
     print("Made by Endper")
     print("-Testers-")
     print("Nathan Li")
     print_empty_lines(1)
     print("EXE to go to Stats")
-    input()
-
-  if choice == '4':
+  
+  elif choice == '4':
     print("|---License N Ver---|")
     print("Version 1.2")
     print_empty_lines(1)
     print("2024 - Python Clicker")
     print("@All Rights Reserved")
     print("EXE to go back")
+
+  if choice in ['1', '2', '3', '4']:
     input()
 
 def lottery_shop(money):

@@ -7,7 +7,7 @@ It's a text-based clicker game designed to run on a calculator (specifically the
 ## What were some limitaions?
 The largest one being saving data. I could not do this because the calculator doesn't allow for such things. Very annoying, I know.
 
-##Will there be any further updates?
+## Will there be any further updates?
 As of August 3rd of 2024, I do not plan on expanding onto this project. About bug fixes, I don't plan on fixing them either as if there is any, they shouldn't effect the gameplay too much.
 As of March 27th of 2025, I am thinking about updating this project.
 
